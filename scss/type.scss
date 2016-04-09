@@ -1,0 +1,22 @@
+
+$leading:1.4rem;
+
+
+%serif{
+	font-family:georgia, times, serif;
+}
+
+%sans-serif{
+	font-family:tahoma, helvetica, arial, sans-serif;
+}
+
+%body-type{
+	@extend %serif;
+	line-height:$leading;
+	// font-size:2rem;
+}
+
+%all-cap{
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
